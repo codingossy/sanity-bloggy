@@ -42,8 +42,8 @@ const SinglePost = ({ postDetails }) => {
           </div>
 
           <div className="my-3 capitalize flex gap-x-2 items-center"> 
-              <p className="text-xs text-gray-600">published at: </p>
-           <p className="text-xs text-gray-600"> {postDetails.publishedAt}</p>
+              <p className="text-xs text-gray-500">published at: </p>
+           <p className="text-xs text-gray-500"> {postDetails.publishedAt}</p>
           </div>
 
           <div className="my-5">
